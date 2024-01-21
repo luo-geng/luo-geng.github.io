@@ -1,0 +1,9 @@
+baseURL = '/'
+languageCode = 'zh-cn'
+title = '不在北极的北极熊🐻‍❄️'
+theme = 'hugoplate'
+
+[params]
+subtitle = 'The Best Widgets on Earth'
+[params.contact]
+email = 'rogan.luo@qq.com'

@@ -1,2 +1,2 @@
 # luo-geng.github.io
-blog
+个人小站
