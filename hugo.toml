@@ -1,8 +1,9 @@
 # baseURL = 'https://blog.u-map.cn'
-baseURL = '/'
+baseURL = 'https://blog.u-map.cn'
 languageCode = 'zh-cn'
 title = '不在北极的北极熊🐻‍❄️'
 theme = 'github-style'
+enableEmoji = true
 
 [params]
 author = "Luoooo"
@@ -10,8 +11,11 @@ location = "China"
 userStatusEmoji = "🐻‍❄️"
 description = '北极熊为什么不在北极'
 
-avatar = 'https://avatars.githubusercontent.com/u/29565303?v=4'
-favicon = "https://avatars.githubusercontent.com/u/29565303?v=4"
+# avatar = 'https://avatars.githubusercontent.com/u/29565303?v=4'
+avatar = 'https://gravatar.kuibu.net/avatar/50851777fd7f7e6e7a3cc62406923c14?s=400'
+# avatar = 'https://cdn.v2ex.com/gravatar/50851777fd7f7e6e7a3cc62406923c14'
+# avatar = 'https://gravatar.loli.net/avatar/50851777fd7f7e6e7a3cc62406923c14?s=400&r=G'
+favicon = "https://gravatar.loli.net/avatar/50851777fd7f7e6e7a3cc62406923c14"
 
 github = "luo-geng"
 email = 'rogan.luo@qq.com'
@@ -20,6 +24,12 @@ url = "https://blog.u-map.cn"
 keywords = "blog"
 rss = true
 
+# lastmod = true
 
 [frontmatter]
 lastmod = ["lastmod", ":fileModTime", ":default"]
+
+[markup]
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true

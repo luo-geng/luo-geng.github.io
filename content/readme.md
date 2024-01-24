@@ -6,7 +6,8 @@ draft = false
 
 # Skills
 
-* HTML / JavaScript&TypeScript / CSS
+* Frontend
+* Java
 * Python
 * Golang
 * C/C++
